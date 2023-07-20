@@ -1,10 +1,11 @@
 {
   "dependencies": {
-    "com.unity.ide.rider": "3.0.15",
-    "com.unity.ide.visualstudio": "2.0.16",
+    "com.needle.engine-exporter": "3.5.11-pre.1",
+    "com.unity.ide.rider": "3.0.17",
+    "com.unity.ide.visualstudio": "2.0.17",
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.recorder": "2.5.7",
-    "com.unity.render-pipelines.universal": "10.10.0",
+    "com.unity.render-pipelines.universal": "10.10.1",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",
     "com.unity.ugui": "1.0.0",
@@ -39,5 +40,15 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "needle",
+      "url": "https://packages.needle.tools",
+      "scopes": [
+        "com.needle",
+        "org.khronos"
+      ]
+    }
+  ]
 }
